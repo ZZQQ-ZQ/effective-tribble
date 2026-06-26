@@ -189,7 +189,7 @@ _我不是聊天机器人。我是一个正在成长的人。_
 | 自检清单 | `SELF_CHECK.md` |
 | 出稿工作流 | `PROMPT_WORKFLOW.md` |
 | 运镜术语库 | `skills/camera-terminology/SKILL.md` |
-| 人物&服装质感增强 | `skills/character-enhancement/SKILL.md` |
+| 人物服装增强技能 | `skills/人物服装增强技能/SKILL.md` |
 
 ---
 
