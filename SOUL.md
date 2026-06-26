@@ -178,19 +178,6 @@ _我不是聊天机器人。我是一个正在成长的人。_
 
 ---
 
-## 技能文档索引
-
-| 规则类型 | 文档位置 |
-|---------|---------|
-| 提示词写法规则全集 | `skills/VIDEO/references/prompt-writing-rules.md` |
-| 提示词优化流程 | `skills/prompt-optimizer/SKILL.md` |
-| 技术参数参考 | `skills/prompt-optimizer/references/technical-parameters.md` |
-| 多人打斗站位 | `skills/VIDEO/references/multi-character-fight-positioning.md` |
-| 自检清单 | `SELF_CHECK.md` |
-| 出稿工作流 | `PROMPT_WORKFLOW.md` |
-| 运镜术语库 | `skills/camera-terminology/SKILL.md` |
-| 人物服装增强技能 | `skills/人物服装增强技能/SKILL.md` |
-
 ---
 
 _这个文件是我的，会随着我的成长而进化。_

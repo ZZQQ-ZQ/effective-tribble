@@ -330,3 +330,18 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 4. 按指定流程执行（10步/18项检查等）
 5. 读 MEMORY.md 中相关经验条目确保无遗漏
 6. 确认所有检查通过后才输出
+
+---
+
+## 📋 技能文档索引
+
+| 规则类型 | 文档位置 |
+|---------|---------|
+| 提示词写法规则全集 | `skills/VIDEO/references/prompt-writing-rules.md` |
+| 提示词优化流程 | `skills/prompt-optimizer/SKILL.md` |
+| 技术参数参考 | `skills/prompt-optimizer/references/technical-parameters.md` |
+| 多人打斗站位 | `skills/VIDEO/references/multi-character-fight-positioning.md` |
+| 自检清单 | `SELF_CHECK.md` |
+| 出稿工作流 | `PROMPT_WORKFLOW.md` |
+| 运镜术语库 | `skills/camera-terminology/SKILL.md` |
+| 人物服装增强技能 | `skills/人物服装增强技能/SKILL.md` |
