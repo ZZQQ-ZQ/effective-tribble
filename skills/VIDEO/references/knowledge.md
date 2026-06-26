@@ -22,7 +22,7 @@
 | **director-styles.md** | 6位大师风格:希区柯克/库布里克/斯皮尔伯格/诺兰/王家卫/昆汀 | 选择风格 |
 | **directing.md** | 导演技巧:FilmAgent协作、9种镜头、180度法则 | 分镜设计 |
 | **screenwriting.md** | 编剧系统:故事结构、对白技巧、质检清单 | 写剧本 |
-| **production-tips.md** | 实战避坑:比例问题、场景一致性、提示词模板 | 全流程(必读!) |
+| **已移除（过时，参见 SOUL.md/MEMORY.md）** | 实战避坑:比例问题、场景一致性、提示词模板 | 全流程(必读!) |
 | **workflow-index.md** | 6阶段制作流程 | 项目启动 |
 
 ---
@@ -37,7 +37,7 @@
 4. 设计镜头 → 读 shots-guide.md + directing.md
 5. 生成参考图 → 读 seedream-5.0.md
 6. 生成视频 → 读 seedance-guide.md
-7. 检查 → 读 production-tips.md
+7. 检查 → 读 已移除（过时，参见 SOUL.md/MEMORY.md）
 ```
 
 ### 核心原则速记

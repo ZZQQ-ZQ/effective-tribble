@@ -24,10 +24,10 @@ description: |
 - [编剧指南](references/screenwriting.md) - 剧本创作与剧情分析（故事结构、人物弧光、对白设计）
 - [导演指南](references/directing.md) - 导演技巧与运镜设计（镜头调度、节奏控制、情感表达）
 - [导演风格参考](references/director-styles.md) - 不同导演风格模板（王家卫、诺兰、斯皮尔伯格等）
-- [胡导风格指南](references/hu-director-style.md) - 胡导风格标准格式（固定镜头、15秒规则、@引用系统）
+- [胡导风格指南](已移除（过时，5层新标准替代）) - 胡导风格标准格式（固定镜头、15秒规则、@引用系统）
 - [镜头语言指南](references/shots-guide.md) - 镜头语言与拍摄技巧（景别、角度、运动、构图）
 - [武侠动作指导](references/wuxia-action-guide.md) - 武侠动作设计与特效表现（招式设计、兵器特性、轻功表现）
-- [制作技巧](references/production-tips.md) - 视频制作实用技巧（场景一致性、物理常识、画质增强）
+- [制作技巧](已移除（过时）) - 视频制作实用技巧（场景一致性、物理常识、画质增强）
 
 ### 4. 基础知识
 - [视频制作知识库](references/knowledge.md) - 视频制作基础知识（术语、流程、工具）

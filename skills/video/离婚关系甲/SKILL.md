@@ -38,16 +38,18 @@ description: |
 ## 📚 知识库
 
 ### 必读参考资料
-1. [离婚复仇对话分析](references/divorce-dialogue-analysis.md) - 对话结构与潜台词分析
-2. [都市精英人设指南](references/urban-elite-character.md) - 人物形象设计
-3. [商业场合场景设计](references/business-scene-design.md) - 办公室、会议室等场景
-4. [情感张力镜头语言](references/emotional-tension-shots.md) - 情感表达镜头技巧
+<!-- 以下参考文件未创建，待补充 -->
+<!-- 1. 离婚复仇对话分析 - 对话结构与潜台词分析 -->
+<!-- 2. 都市精英人设指南 - 人物形象设计 -->
+<!-- 3. 商业场合场景设计 - 办公室、会议室等场景 -->
+<!-- 4. 情感张力镜头语言 - 情感表达镜头技巧 -->
 
 ### 模板文件
-1. [离婚短剧剧本模板](templates/divorce-drama-template.md)
-2. [复仇计划情节模板](templates/revenge-plot-template.md)
-3. [复杂关系对话模板](templates/complex-dialogue-template.md)
-4. [权力游戏分镜模板](templates/power-game-storyboard.md)
+<!-- 以下模板文件未创建，待补充 -->
+<!-- 1. 离婚短剧剧本模板 -->
+<!-- 2. 复仇计划情节模板 -->
+<!-- 3. 复杂关系对话模板 -->
+<!-- 4. 权力游戏分镜模板 -->
 
 ### 工作流程
 1. [离婚短剧制作流程](workflows/divorce-drama-workflow.md)
