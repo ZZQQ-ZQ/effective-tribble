@@ -266,7 +266,7 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 
 8. **提示词规则更新**
    - → SOUL.md（强制执行机制部分）
-   - → skills/prompt-optimizer/SKILL.md（检查清单）
+   - → skills/VIDEO/prompt-optimizer/SKILL.md（检查清单）
 
 ### "记住xxx" 处理流程
 
@@ -324,7 +324,7 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 ### 推送提示词时强制执行机制
 
 每次用户要求"生成提示词"、"优化提示词"、"写提示词"时，必须在输出前完成：
-1. 读 `skills/prompt-optimizer/SKILL.md`（确保覆盖最新规则）
+1. 读 `skills/VIDEO/prompt-optimizer/SKILL.md`（确保覆盖最新规则）
 2. 读 SOUL.md 中的强制执行机制和检查清单
 3. 读 USER.md 中的视频生成规范
 4. 按指定流程执行（10步/18项检查等）
@@ -338,12 +338,12 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 | 规则类型 | 文档位置 |
 |---------|---------|
 | 提示词写法规则全集 | `skills/VIDEO/references/prompt-writing-rules.md` |
-| 提示词优化流程 | `skills/prompt-optimizer/SKILL.md` |
-| 技术参数参考 | `skills/prompt-optimizer/references/technical-parameters.md` |
+| 提示词优化流程 | `skills/VIDEO/prompt-optimizer/SKILL.md` |
+| 技术参数参考 | `skills/VIDEO/prompt-optimizer/references/technical-parameters.md` |
 | 多人打斗站位 | `skills/VIDEO/references/multi-character-fight-positioning.md` |
 | 自检清单 | `SELF_CHECK.md` |
 | 出稿工作流 | `PROMPT_WORKFLOW.md` |
-| 运镜术语库 | `skills/camera-terminology/SKILL.md` |
+| 运镜术语库 | `skills/VIDEO/camera-terminology/SKILL.md` |
 | 人物服装增强技能 | `skills/VIDEO/人物服装增强技能/SKILL.md` |
 | 场景质感增强技能 | `skills/VIDEO/场景质感增强技能/SKILL.md` |
 | 场景一致性保持技能 | `skills/VIDEO/场景一致性保持技能/SKILL.md` |

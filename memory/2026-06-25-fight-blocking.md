@@ -1,3 +1,5 @@
+⚠️ 本文件中怪A/怪B颜色设定已被2026-07-01导演修正覆盖。最新设定见 memory/2026-07-01.md。
+
 # Session: 2026-06-25 12:34:43 UTC
 
 - **Session Key**: agent:main:qqbot:direct:b113629636cf43c86a92619ff0c4216c

@@ -158,8 +158,8 @@ task_id = generate_video(
 
 本知识库整合了以下来源的知识点：
 - `skills/video/` - 原始视频知识库
-- `skills/video-production-5agent/references/` - 5Agent参考资料
-- `skills/short-drama-production/` - 短剧制作知识
+- `skills/VIDEO/video-production-5agent/references/` - 5Agent参考资料
+- `skills/VIDEO/short-drama-production/` - 短剧制作知识
 - `skills/video-production/` - 视频制作流程
 
 所有知识点已重新组织，避免分散，便于查找和使用。

@@ -21,7 +21,7 @@ npx skills add dexhunter/seedance2-skill
 curl -o ~/.claude/skills/seedance-prompt-zh.md https://raw.githubusercontent.com/dexhunter/seedance2-skill/main/zh/SKILL.md
 
 # 英文版
-curl -o ~/.claude/skills/seedance-prompt-en.md https://raw.githubusercontent.com/dexhunter/seedance2-skill/main/SKILL.md
+curl -o ~/.claude/skills/VIDEO/seedance-prompt-en.md https://raw.githubusercontent.com/dexhunter/seedance2-skill/main/SKILL.md
 ```
 
 然后让你的 AI 代理帮你撰写 Seedance 2.0 视频提示词即可。

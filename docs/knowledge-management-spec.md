@@ -234,7 +234,7 @@ MEMORY.md 开头必须包含文档索引（Table of Contents），格式：
 重要信息需要标注交叉引用：
 - `→ 详见 SOUL.md §强制执行机制`
 - `→ 参考 USER.md §七、语速与时间铁律`
-- `→ 参见 skills/prompt-optimizer/SKILL.md`
+- `→ 参见 skills/VIDEO/prompt-optimizer/SKILL.md`
 
 ---
 
