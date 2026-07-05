@@ -219,3 +219,208 @@
 4. **变形宽银幕写完整品牌**：模型识别 `Panavision C-Series` > `anamorphic` 裸词
 5. **光圈配合景别**：特写≤f/2.8 中景f/2.8-5.6 全景≥f/5.6
 6. **分镜可覆盖全局**：某镜特殊焦段直接在「运镜手法」标注，覆盖块1设定
+
+---
+
+## Part G：拍摄方式（摄影承载系统 × 13种）
+
+> 拍摄方式 = 摄影机怎么被支撑、怎么运动。与「运镜手法」（推拉摇移跟）不同，拍摄方式决定画面的物理质感和运动基调。
+> Seedance 2.0 对 Steadicam / Handheld / Drone 等承载方式词高度敏感。
+> 来源：StudioBinder 14种运镜体系 + Rough Cut Media AI优化 + Atlabs 38项AI摄法。
+
+### G1：13种摄影承载方式
+
+#### 1. 三脚架/固定机位（Tripod / Static / Locked Off）
+- **画面特征**：绝对稳定、零抖动、水平锁定、构图精确
+- **情感传达**：客观、冷静、让表演说话
+- **🔑 匹配场景**：对话/对峙/人物独白/法庭/固定信息传递
+- **不匹配**：打斗/追逐/混乱场面
+- **AI提示词**：`static shot` / `tripod locked off` / `locked camera`
+- **代表作品**：Fincher式精确构图、Ozu榻榻米机位
+
+#### 2. 手持（Handheld）
+- **画面特征**：自然微晃、呼吸感、不完美稳定、跟拍感
+- **情感传达**：真实/临场/紧张/纪录感/混乱
+- **🔑 匹配场景**：战斗/追逐/纪录片/战场/混乱/情绪激动
+- **不匹配**：正式对话/史诗全景/产品展示
+- **AI提示词**：`handheld camera` / `documentary handheld` / `shaky handheld`
+- **子类型**：
+  - 呼吸手持：`natural handheld with slight breathing motion` → 文艺/私密
+  - 晃动手持：`frantic handheld with micro-shake` → 混乱/战斗
+  - 肩扛：`shoulder rig, slight sway` → 新闻/纪录
+
+#### 3. 斯坦尼康（Steadicam）
+- **画面特征**：漂浮感、丝滑流动、人体减震、有机曲线
+- **情感传达**：优雅/沉浸/跟随/主观探索
+- **🔑 匹配场景**：长镜头/建筑穿行/人物跟随/舞会/博物馆
+- **代表作品**：The Shining走廊、Goodfellas夜店入场
+- **AI提示词**：`Steadicam shot` / `floating Steadicam` / `smooth Steadicam tracking`
+- **vs 电子稳定器**：Steadicam="软"（有机浮动感），Gimbal="硬"（机械精准）
+
+#### 4. 电子稳定器/云台（Gimbal）
+- **画面特征**：机械精准稳定、快速响应、硬朗轨迹
+- **情感传达**：现代/精准/商业/动作
+- **🔑 匹配场景**：商业广告/动作跟拍/婚礼/跑动跟随/低角度滑行
+- **AI提示词**：`gimbal shot` / `stabilized gimbal` / `3-axis gimbal smooth tracking`
+- **vs Steadicam**：Gimbal="硬"（机械精准），Steadicam="软"（有机浮动）→ Fincher用Gimbal，Scorsese用Steadicam
+
+#### 5. 滑轨/Dolly（Track-based）
+- **画面特征**：绝对平滑的直线运动、无颠簸、空间纵深感
+- **情感传达**：推进=压迫/靠近，拉远=疏离/揭示
+- **🔑 匹配场景**：情绪升级/揭示关系/空间建立/推近特写
+- **AI提示词**：`dolly in` / `dolly out` / `slow dolly push` / `track-mounted dolly`
+- **子类型**：
+  - 推近（Dolly In）：压迫感/角色顿悟/情绪聚焦
+  - 拉远（Dolly Out）：揭示环境/孤独感/故事收尾
+  - 横移（Truck）：`truck left` / `truck right` → 平行跟随
+
+#### 6. 摇臂/升降机（Crane / Jib）
+- **画面特征**：垂直升降、大范围视野变化、俯瞰到平视的过渡
+- **情感传达**：史诗/宏伟/揭示/上帝视角→人间
+- **🔑 匹配场景**：开场建立/大场面/英雄亮相/战争俯瞰/结尾拉升
+- **AI提示词**：`crane shot` / `jib up` / `crane rising` / `boom down`
+- **子类型**：
+  - 升起（Boom Up / Crane Up）：揭示全景、角色渺小化
+  - 下降（Boom Down）：从环境聚焦到人物
+  - 大型摇臂（Technocrane）：极大幅度升降 + 伸缩
+
+#### 7. 航拍（Drone / Aerial）
+- **画面特征**：空中视角、地理尺度、自由移动、俯瞰
+- **情感传达**：上帝视角/自由/宏大/脱离
+- **🔑 匹配场景**：开场建立/地理过渡/城市全景/战争俯瞰/自然风光
+- **AI提示词**：`drone shot` / `aerial drone` / `bird's eye view` / `top-down aerial`
+- **子类型**：
+  - 缓降：`drone slowly descending` → 从天到地
+  - 拉升：`drone pulling back and up` → 揭示地貌
+  - 追踪：`drone tracking over landscape` → 地理转移
+
+#### 8. FPV穿越机（FPV Drone）
+- **画面特征**：极速、贴地飞行、急转弯、眩晕感、不可替代的速度感
+- **情感传达**：极限/速度/刺激/沉浸
+- **🔑 匹配场景**：追逐/跑酷/极速运动/战斗开场/建筑穿行
+- **AI提示词**：`FPV drone` / `first-person view drone` / `high-speed FPV`
+- **注意**：Seedance对FPV词敏感，但高速+急弯可能导致画面撕裂
+
+#### 9. Motion Control / 机械臂（Robotic Arm / MoCo）
+- **画面特征**：精密可重复轨迹、数学级平滑、无人类晃动
+- **情感传达**：精密/科幻/疏离/机械感
+- **🔑 匹配场景**：科幻/特效合成/产品广告/延时摄影/微距
+- **AI提示词**：`motion control camera` / `robotic arm camera movement` / `precision motion control`
+- **特征**：极快加速+干净减速刹车，无抖动
+
+#### 10. 车载（Vehicle Mount / Car Rig）
+- **画面特征**：与车辆同步、路面颠簸传导、速度感
+- **情感传达**：旅途/逃离/追逐/公路叙事
+- **🔑 匹配场景**：汽车追逐/公路片/车内对话/车外跟拍
+- **AI提示词**：`car-mounted camera` / `vehicle rig` / `hood mount POV`
+- **子类型**：
+  - 引擎盖POV：`hood mount, looking forward through windshield`
+  - 侧挂：`side mount, tracking parallel to car`
+  - 车内：`interior car rig, static medium shot on driver`
+
+#### 11. Snorricam / 体载摄影机
+- **画面特征**：人物与背景分离、世界围绕人物旋转、主体始终居中
+- **情感传达**：迷失/眩晕/孤立/药物感/心理崩溃
+- **🔑 匹配场景**：嗑药/醉酒/心理崩溃/恐慌发作
+- **代表作品**：Requiem for a Dream、Pi
+- **AI提示词**：`Snorricam` / `body-mounted camera` / `chest-mounted camera facing subject`
+
+#### 12. Wire Cam / 飞索摄影
+- **画面特征**：超长距离直线高速飞行、球场级空中俯瞰
+- **情感传达**：宏大/速度/全景
+- **🔑 匹配场景**：体育场/音乐会/战场俯瞰/超大空间穿行
+- **AI提示词**：`wire cam` / `cable-suspended camera` / `stadium flycam`
+
+#### 13. 水下（Underwater Housing）
+- **画面特征**：悬浮感、水波光线折射、浮尘/气泡、慢动作感
+- **情感传达**：梦幻/窒息/重生/清洁
+- **🔑 匹配场景**：水下逃脱/溺水/美人鱼/洗礼/游泳
+- **AI提示词**：`underwater camera` / `submerged camera` / `underwater housing shot`
+
+### G2：8种特殊拍摄技法
+
+#### 1. 一镜到底（One Shot / Long Take / Oner）
+- 无剪辑的连续拍摄，通过调度完成场景转换
+- **AI提示词**：`one continuous shot` / `no cuts` / `single unbroken take`
+- **代表**：1917、Birdman
+
+#### 2. 升格/慢动作（Slow Motion / High Frame Rate）
+- 高帧率拍摄后慢放，时间拉长的诗意感
+- **AI提示词**：`slow motion` / `120fps slow motion` / `extreme slow motion`
+- **注意**：Seedance 2.0 中 `120fps slow motion` 比裸 `slow motion` 效果好
+
+#### 3. 降格/快动作（Time-lapse / Fast Motion）
+- 时间压缩，日出日落/云流/人群流动
+- **AI提示词**：`time-lapse` / `hyperlapse` / `fast motion`
+
+#### 4. 子弹时间（Bullet Time）
+- 围绕冻结瞬间的环绕视角
+- **AI提示词**：`bullet time effect` / `frozen moment, camera rotates around subject`
+
+#### 5. Dolly Zoom（Vertigo Effect / 希区柯克变焦）
+- 镜头推+机身拉（或反之），背景扭曲人物大小不变
+- **AI提示词**：`dolly zoom` / `zolly` / `vertigo effect` / `Hitchcock zoom`
+- **匹配**：恐惧/顿悟/心理崩塌
+
+#### 6. 分屏/画中画（Split Screen）
+- 多个画面同时展示
+- **AI提示词**：`split screen` / `triptych shot`
+- **匹配**：电话对话/平行叙事
+
+#### 7. POV/第一人称
+- 通过角色眼睛观看
+- **AI提示词**：`first-person POV` / `POV shot` / `hands visible, camera as eyes`
+
+#### 8. 过肩镜头（OTS / Over-the-Shoulder）
+- 摄影机在第二人肩后，前景虚化
+- **AI提示词**：`over the shoulder shot` / `OTS`
+- **匹配**：对话/对峙（写清俯仰角度）
+
+---
+
+## Part H：拍摄方式 × 场景速查
+
+| 场景类型 | 推荐承载方式 | AI写法关键词 |
+|---------|------------|-------------|
+| 文戏对话 | 三脚架/固定 | `static shot, tripod locked off` |
+| 两人对峙 | 过肩+固定 | `OTS, locked camera` |
+| 情绪升级 | 滑轨缓推 | `slow dolly in` |
+| 打斗/冲突 | 手持晃动 | `frantic handheld, micro-shake` |
+| 追逐/跑酷 | FPV穿越机 / 手持 | `FPV drone chase` / `handheld tracking` |
+| 英雄亮相 | 摇臂升起 | `crane shot rising` |
+| 建立场景 | 航拍缓降 | `drone slowly descending` |
+| 长镜头跟随 | 斯坦尼康 | `Steadicam floating tracking` |
+| 商业动作 | 电子稳定器 | `gimbal stabilized tracking` |
+| 心理崩溃 | Snorricam | `Snorricam, body-mounted` |
+| 极速运动 | FPV穿越机 | `high-speed FPV drone` |
+| 水下 | 水下机壳 | `underwater camera` |
+| 史诗战场 | 摇臂+航拍 | `crane shot + drone aerial` |
+| 赛道/公路 | 车载 | `vehicle-mounted rig` |
+
+---
+
+## Part I：集成到提示词格式
+
+拍摄方式写入「运镜手法」字段，不单独起行：
+
+```
+3-6秒
+景别：近景
+构图：秦轩画中，刀身上挑
+运镜手法：手持剧烈晃动，24mm f/2.8
+画面内动：秦轩蹬地腾空转体，刀光爆闪。
+```
+
+多承载方式组合（短时间段落不推荐，5秒+可用）：
+
+```
+0-7秒
+景别：全景→特写
+运镜手法：FPV穿越机贴地俯冲→撞脸瞬间切斯坦尼康缓推，14mm→85mm
+画面内动：...
+```
+
+核心原则：
+- 每镜一种主承载方式，不混搭两种
+- 承载方式决定画面物理质感，不写错别字（`Steadicam`不是`steady cam`）
+- 手持/斯坦尼康/Gimbal三种"动"的选择 → 看情绪：真实=手持，优雅=Steadicam，精准=Gimbal
