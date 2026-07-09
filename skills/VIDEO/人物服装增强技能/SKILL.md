@@ -22,7 +22,7 @@ AI 视频生成人物常见的"塑料感"源于：
 | 皮肤光滑如塑料 | 模型默认均值平滑，缺少微纹理 | 加毛孔/纹理/次表面散射 |
 | 眼神空洞呆滞 | 虹膜无纹理、无眼神光、无微动 | 加虹膜细节/眼神光/眨眼微动 |
 | 头发整整齐齐 | 无碎发/毛躁/飘动，违反物理 | 加碎发/飞丝/逆光发丝 |
-| 服装全新完美 | 无褶皱/磨损/面料纹理 | 加编织纹理/自然折痕/面料特性 |
+| 服装全新完美 | 无褶皱/面料纹理 | 加编织纹理/自然折痕/面料特性 |
 | 面部特征漂移 | 帧间五官位移 | avoid约束+皮肤锚定词 |
 
 ### 核心原则
@@ -197,16 +197,16 @@ cotton weave texture visible at thread level
 
 ##### 皮革/Leather
 ```
-皮质纹理微反光，折痕处自然磨损光泽，
-表面微颗粒纹理，边缘磨损做旧，
-leather grain texture with natural patina
+皮质纹理微反光，折痕处形成自然软阴影，
+表面微颗粒纹理，
+leather grain texture
 ```
-- 追加关键词：`leather grain surface`, `natural wear patina`, `crease highlights`
+- 追加关键词：`leather grain surface`, `crease highlights`
 
 ##### 铠甲/Armor
 ```
 金属表面哑光处理，铆钉高光点独立反光，
-甲片间皮革衬垫纹理，金属边缘自然磨损，
+甲片间皮革衬垫纹理，
 叠合处形成缝隙阴影，铠甲关节处活动褶皱
 ```
 - 追加关键词：`metal surface matte finish`, `individual rivet highlights`, `segmented plate shadows`
@@ -239,7 +239,7 @@ matte technical fabric, seam tension creases, hardware specular highlights
 | 英文 | 中文 | 效果 |
 |------|------|------|
 | `fabric weave visible, thread-level detail` | 面料编织纹理可见 | 非光滑平面 |
-| `natural wear and crease patterns` | 自然磨损折痕 | 非全新完美 |
+
 | `cloth catching light differently on folds` | 褶皱不同角度反光差异 | 立体感 |
 | `seam and stitch detail visible` | 缝线针脚可见 | 工艺质感 |
 | `fabric draping physics natural` | 面料自然垂坠物理 | 符合重力 |
@@ -364,7 +364,7 @@ subsurface scattering次表面散射光感...[皮肤高配追加]...
 | 全部镜头用高配 | token爆炸，冲突 | 按场景适配矩阵选模块 |
 | 写"完美无瑕皮肤" | 触发塑料感 | 写"自然微纹理，轻微肤色不均" |
 | 头发写"整齐柔顺" | AI给你戴假发 | 写"碎发/飞丝/毛躁/松散" |
-| 服装写"全新整洁" | 无折痕无阴影 | 写"自然褶皱/磨损纹理/折痕光影" |
+| 服装写"全新整洁" | 无折痕无阴影 | 写"自然褶皱/折痕光影" |
 | 眼睛只写"有神" | 太抽象模型不懂 | 写"眼神光/虹膜纹理/湿润线" |
 | 肤质词与景别不匹配 | 特写不写细节，全景写太多 | 对照景别可见粒度表 |
 
