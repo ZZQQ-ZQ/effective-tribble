@@ -149,6 +149,7 @@ description: 电影视觉风格全栈系统。Part A「选风格」→ 四维分
 | 5 | 轮廓光/边缘光 | 后方斜侧 | 人物边缘高亮，与背景分离 | `rim light outlining figure's edge, separation from dark background` |
 | 6 | 伦勃朗光 | 侧上45° | 一侧脸颊三角光斑 | `Rembrandt lighting, triangular light patch under shadow-side eye` |
 | 7 | 蝴蝶光 | 前上45° | 鼻下蝴蝶形阴影，时尚 | `butterfly lighting, butterfly-shaped shadow beneath nose` |
+| 7b | 环形光 | 侧上30-45° | 鼻影在脸颊形成小环形，面部均匀自然 | `loop lighting, small loop-shaped nose shadow on cheek, even natural illumination` |
 | 8 | 分割光 | 侧面90° | 面部精确一半亮一半暗 | `split lighting, half face illuminated half in deep shadow` |
 
 ### 🌤 氛围光（7种）
@@ -173,6 +174,7 @@ description: 电影视觉风格全栈系统。Part A「选风格」→ 四维分
 | 4 | 明暗对照 | 强对比光影，经典油画感 | `chiaroscuro lighting, dramatic light-shadow contrast, sculptural illumination` |
 | 5 | 有源光 | 光有明确来源（窗/灯/火） | `motivated lighting from visible window source, naturalistic illumination` |
 | 6 | 实景光源 | 画面内可见光源 | `practical light visible in frame, diegetic light source illuminating scene` |
+| 7 | 背景渐变光 | 背景从中心亮区自然过渡到边缘暗区，人物突出 | `vignette background lighting, graduated illumination bright at center fading to edges, subject pop` |
 
 ### ✨ 特殊效果光（5种）
 
@@ -183,6 +185,16 @@ description: 电影视觉风格全栈系统。Part A「选风格」→ 四维分
 | 3 | 体积光/上帝光 | 空气中可见光柱 | `volumetric lighting, visible light beams cutting through air, god rays` |
 | 4 | 轮廓背光 | 人物边缘发亮 | `strong rim backlight outlining subject, hair catching edge light` |
 | 5 | 发际光 | 发丝背光勾勒 | `hair light creating luminous halo around head from behind` |
+| 6 | 百叶窗光 | 规整明暗条纹，都市悬疑电影感 | `venetian blind shadows, striped light pattern across face and wall, film noir interrogation feel` |
+| 7 | 手机屏幕光 | 小面积冷蓝近光，仅照亮局部人脸，背景压暗 | `phone screen glow, small cool-blue light source illuminating only face, dark surroundings` |
+| 8 | 街灯光 | 单点暖光从上打下，强烈明暗反差，夜晚都市孤独感 | `streetlight, single warm overhead pool of light, stark contrast against dark street` |
+| 9 | 晨雾逆光 | 柔和穿透雾气的光线包裹人物边缘，清晨诗意通透 | `morning mist backlight, soft diffused light wrapping subject edges through fog, ethereal dawn glow` |
+| 10 | 雨夜反射光 | 潮湿地面的环境反光，冷调都市孤独感 | `rainy night reflections, wet pavement mirroring city lights, cool blue ambient bounce from below` |
+| 11 | 舞台追光 | 远距离集中高亮打亮主体，戏剧感强 | `stage spotlight, concentrated beam isolating subject, dramatic falloff to darkness` |
+| 12 | 投影光 | 窗格/树影等图案投射人物面部，光影参与构图 | `projected shadow patterns on face, dappled leaf shadows or window grille cast across subject, light as visual element` |
+| 13 | 水波反射光 | 流动的晃动光纹扫过人物，夏日梦幻怀旧 | `water caustics, rippling reflected light patterns dancing across subject, dreamy summer nostalgia` |
+| 14 | 荧光灯光 | 冷调偏硬顶侧照明，现实空间压抑感 | `fluorescent tube light, cold clinical overhead illumination, slight green cast, harsh unflattering shadows` |
+| 15 | 门缝光 | 极窄定向光束照亮局部，周围大面积压黑 | `sliver of light through door crack, thin razor-sharp beam cutting darkness, high tension suspense` |
 
 ### 🌫 环境特效光（5种）
 

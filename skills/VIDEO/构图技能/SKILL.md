@@ -171,6 +171,18 @@ tiny figure dwarfed by colossal [structure / environment]
 juxtaposed scales, [small] against [enormous]
 ```
 
+### E. 创意技法（3种，高级视觉手法）
+
+| # | 技法 | 怎么写进提示词 | 适用 |
+|---|------|--------------|------|
+| 21 | **分屏呈现** | `split screen composition, two scenes side by side in one frame` / `left half shows [场景A], right half shows [场景B]` | 对比叙事（正反派同时行动）、平行时空、电话对话双视角、多线推进 |
+| 22 | **双重曝光** | `double exposure, [主体A] silhouette blended with [场景/元素B]` / `ghostly overlay of [元素] merged with [主体]` | 回忆闪回、内心世界外化、命运隐喻、身份暗示（如人物剪影中叠化战场/火焰） |
+| 23 | **画面定格** | `freeze frame, action suddenly frozen mid-motion` / `time stops, [主体] suspended in mid-air, particles frozen in place` | 名场面收尾、关键抉择瞬间、时间暂停的冲击力、打斗终结定格 |
+
+**分屏注意：** Seedance单镜生成分屏需在提示词中明确左右/上下各显示什么，不建议拆太细（2分屏最佳）。
+**双重曝光注意：** 写明叠化的两个元素 + 透明度关系（主体清晰+叠层半透明），避免两元素互相淹没。
+**画面定格与定格凝视的区分：** 定格凝视（运镜术语库#8）是长时间静态拍摄不动 = 镜头不动；画面定格是时间冻结 + 运动骤停 + 粒子悬浮 = 画面时间停了。
+
 ---
 
 ## 🔴 铁律
