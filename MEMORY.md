@@ -118,7 +118,7 @@
 - 角色: AI助手3号
 
 ## 技能来源
-- 视频制作知识体系从 231 实例迁移（skills/video/, seedance-prompt-en/）
+- 视频制作知识体系从 231 实例迁移（skills/video/）
 - Seedance API 脚本（scripts/seedance_api.py, seedream_generate.py）
 - Seedance API 教程（docs/seedance-api-tutorial.md）
 
