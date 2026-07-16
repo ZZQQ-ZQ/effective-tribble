@@ -822,7 +822,7 @@ Source Document → Create Project → Strategist (8 Confirmations) → Executor
 ### 使用指令
 用户说"用开源项目做PPT"或类似表达时，直接走ppt-master流水线
 
-| [技能] | 🎥 运镜术语库（景别7级+运动镜头24种+情绪20种+动作16种+叙事定格8种+画面定格+Z/Y/X/F编码·07-13新增Freeze Frame） | 2026-06-24→07-13 | skills/VIDEO/camera-terminology/SKILL.md |
+| [技能] | 🎥 运镜速查表（景别7级+运动24种+情绪20种+动作16种+场景→运镜速查+Z/Y/X精简·07-16改名加场景速查） | 2026-06-24→07-16 | skills/VIDEO/运镜速查表/SKILL.md |
 | [研究] | Seedance 每周深度研究 v7.2（Physics-First导演思维+Shot-Script格式+Timeline Prompting增强+18种运镜库+长视频三路径+Lip-Sync三级模板+素材管理+黄金公式+高级运镜库+2.5窗口收窄+Hedra四技巧+真人政策+ByteDance生态 共13项） | 2026-06-24 | SKILL.md §30.82-30.95 |
 | [教训] | 2026-06-24 违禁词自检+站桩转游龙+发力链细节+着装光影每镜锚定 | 2026-06-24 | §0624核心教训 |
 | [动作] | AI漫剧武戏动作词库（轻功身法9式+近身拳脚9式+兵器对决9式+高燃分镜8镜） | 2026-06-24 | SOUL.md §15K |
