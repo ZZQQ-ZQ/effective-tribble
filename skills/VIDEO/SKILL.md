@@ -2,7 +2,7 @@
 name: VIDEO
 description: |
   综合视频制作知识库，整合了所有视频相关技能的知识点。
-  包含：Seedance/Seedream模型使用指南、5Agent工作流、短剧制作、导演技巧、编剧指南、镜头语言等。
+  包含：Seedance/Seedream模型使用指南、短剧制作、导演技巧、编剧指南、镜头语言等。
   适用于：商业视频广告、电影/短剧片段、教学演示视频、视频素材创作。
 ---
 
@@ -16,7 +16,6 @@ description: |
 - [火山引擎API指南](references/volcano-api-guide.md) - API调用与配置（认证、参数、错误处理）
 
 ### 2. 工作流与流程
-- [5Agent工作流](references/5agent-workflow.md) - 5Agent分工协作流程（场记、编剧、建模师、导演、摄影师）
 - [工作流索引](references/workflow-index.md) - 视频制作工作流索引
 - [短剧制作工作流](workflows/short-drama-workflow.md) - 短剧制作专业流程（剧本、分镜、角色、场景、后期）
 
@@ -80,14 +79,7 @@ description: |
 - **一致性增强**：跨图像角色特征保持
 - **尺寸选项**：2K/3K分辨率与自定义尺寸
 
-### 3. 5Agent协作流程
-- **场记(Video Scribe)**：需求确认与项目管理
-- **编剧(Video Writer)**：剧情分析与提示词创作
-- **建模师(Video Modeler)**：参考图片素材生成
-- **导演(Video Director)**：运镜脚本与分镜设计
-- **摄影师(Video Cameraman)**：API调用与视频生成
-
-### 4. 短剧制作专业
+### 3. 短剧制作专业
 - **快节奏叙事**：强情绪、高冲突、竖屏优化
 - **剧本分析**：三幕结构、人物弧光、情感曲线
 - **分镜设计**：竖屏镜头语言、情绪节奏控制
@@ -151,14 +143,13 @@ task_id = generate_video(
 
 ### 4. 查看详细指南
 - 阅读[Seedance指南](references/seedance-guide.md)了解提示词撰写
-- 阅读[5Agent工作流](references/5agent-workflow.md)了解协作流程
 - 阅读[短剧制作指南](workflows/short-drama-workflow.md)了解短剧制作
 
 ## 📁 文件来源
 
 本知识库整合了以下来源的知识点：
 - `skills/video/` - 原始视频知识库
-- `skills/VIDEO/video-production-5agent/references/` - 5Agent参考资料
+- `skills/VIDEO/` - 各专项技能目录（构图/打斗/表演/运镜/光效/场景一致性等）
 - `skills/VIDEO/short-drama-production/` - 短剧制作知识
 - `skills/video-production/` - 视频制作流程
 
