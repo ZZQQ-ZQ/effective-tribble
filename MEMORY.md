@@ -7,6 +7,7 @@
 | [规则] | 🔴 死规则：导演不明确说「发/出/写吧/来吧/重出」不出任何提示词 | 2026-07-06 | SOUL.md §死规则 |
 | [项目] | 🔴 第二集《太渊征战》全信息（剧本/角色/场景/光效设计/5场戏完整锁定·07-13导演锁定） | 2026-07-13 | skills/VIDEO/第二集内容/SKILL.md |
 | [技能] | 🔴 requirement-clarify 需求确认技能（所有任务强制触发·听了话必须先反问·不问够不罢手·不许靠猜·07-13导演创建并更新） | 2026-07-13 | skills/VIDEO/requirement-clarify/SKILL.md |
+| [项目] | 🔴 第四集《幽灵神殿》BOSS右手持刀（2026-07-21 导演指定·永久角色规格） | 2026-07-21 | memory/2026-07-21.md |
 |------|------|---------|------|
 | [格式] | 🔴 导演指令式·3块结构（07-05 全网调研后大改：分时段描述+光效嵌入+删除字段名/技术参数/尾缀） | 2026-07-05 | PROMPT_FORMAT.md |
 | [格式] | 旧5层格式（v1·v2·已废弃存档） | 2026-07-04 | PROMPT_FORMAT_V1.md / PROMPT_FORMAT_V2.md |
@@ -31,14 +32,19 @@
 | [技能] | 🔴 镜头逻辑性技能（景别速查×画面可见×描述范围×打光+景别叙事逻辑×镜头序列×30度法则×180度轴线×信息密度·写分镜前强制逐镜对照·07-15补30度角度跳切规则） | 2026-07-01→07-15 | skills/VIDEO/镜头逻辑性技能/SKILL.md |
 | [技能] | 🔴 人物表演管理技能（表情管理5条铁律×情绪→写法对照+语气管理5条铁律×语气速查×Dexhunter格式·写身体不写脸谱·一镜一层·语气≤6字） | 2026-07-01 | skills/VIDEO/人物表演管理技能/SKILL.md |
 | [技能] | 🔴 动态运镜提升技能（ACT游戏引擎运镜哲学×电影打斗摄影6法×Seedance Orb/POV实战·四大引擎系统+冲击帧四层+速度斜坡+五阶段动态循环·理论升维·打斗运镜决策总控） | 2026-07-01 | skills/VIDEO/动态运镜提升技能/SKILL.md |
-| [技能] | 🎮 传奇打斗逻辑（传奇战士实战操作→Seedance视觉翻译+传奇世界观速览·走位/隔位刺杀/拉扯/技能释放/双烈火/野蛮冲撞变向/战法道三人协作/场景BOSS装备全内置·07-16整合cq-culture） | 2026-07-03→07-16 | skills/VIDEO/传奇打斗逻辑/SKILL.md |
+| [技能] | 🎮 传奇打斗逻辑（四技能视觉描述全网验证版·逐日=金色人形剑气/龙影=四道扇形银白剑光/刺杀=银白半月刀光/开天斩=银色巨刃虚影·07-20更新） | 2026-07-03→07-20 | skills/VIDEO/传奇打斗逻辑/SKILL.md |
 | [技能] | 🎨 色彩调色技能（色彩三要素+六大配色方案+场景调色速查+提示词色彩体系·07-16新建） | 2026-07-16 | skills/VIDEO/色彩调色技能/SKILL.md |
 | [技能] | 📷 构图技能 v2.1（四维相机坐标+十大模块+人物调度+V.I.D.E.O.框架·07-16整合相机四维编码） | 2026-07-05→07-16 | skills/VIDEO/构图技能/SKILL.md |
 | [技能] | 🎭 真实感增强技能（八维框架×人物三层[皮肤/微表情/自然动作·30+词库]×场景PBR材质×不完美法则×动作物理锚点×负面提示词库×分段策略·07-15全网调研创建） | 2026-07-15 | skills/VIDEO/真实感增强技能/SKILL.md |
 | [参考] | Soul ID角色一致性理念·Seedance适配版（Identity vs Motion分离+Character Anchor Block+跨段落一致性检查·源Higgsfield平台·07-13提取平台无关理念适配到@参考图+主体锚块体系） | 2026-07-13 | skills/VIDEO/SoulID角色一致性理念.md |
 | [参考] | AI漫剧12种风格提示词模板·双维度（Part A渲染质感4种 + Part B调色氛围8种：日系/港风/胶片/赛博/黑色电影/王家卫/韦斯安德森/末日废土·含11组组合示例·07-13入库更新） | 2026-07-13 | skills/VIDEO/references/ai-comic-style-templates.md |
 | [参考] | 🎵 音频音效设计标准化方案（通用公式+音量层级规范+环境底噪/关键特效音/背景配乐素材库+5类场景套用模板+实战示范·07-14入库） | 2026-07-14 | skills/VIDEO/references/audio-sound-design.md |
+| [参考] | 🔴 woodfantasy/Seedance2.0-ShotDesign-Skills 外部导演技能（运镜词典50+×3级×强度表+28导演风格四轴降解库+品质锚定胶片型号三层光影+20场景模板+7项硬校验·07-22拉入库存用） | 2026-07-22 | skills/VIDEO/seedance-shot-design/SKILL.md |
+| [参考] | 🔴 Emily2040/seedance-2.0 directing engine（145文件·导演意图派发引擎+33派生场景+中文原生vocab/examples+seedance-prompt/sequence/continuation多技能·07-22拉入库存用） | 2026-07-22 | skills/VIDEO/external-skills/emily2040-seedance/ |
+| [参考] | ai9app/AI-Cinematic-Prompt-Director（250条电影摄影知识库+逐镜提示词矩阵·07-22拉入库存用） | 2026-07-22 | skills/VIDEO/external-skills/ai9app-cinematic-director/ |
+| [参考] | birdilsss-byte/ai-creative-subagent-framework（5角色编排调度·07-22拉入库存用） | 2026-07-22 | skills/VIDEO/external-skills/birdilsss-subagent/ |
 | [知识库] | 🎬 电影画风知识库（58种·Part C 10种电影运动+Part D 7种导演风格+Part E 3种网络美学+Part F 18种影视类型·与已有20种构成58种完整矩阵·07-13新建并追加） | 2026-07-13 | skills/VIDEO/references/cinematic-style-knowledge-base.md |
+| [技能] | 🎬 影视风格技能 v3.0（风格→块1三变量+四层执行指令·69种完整库：34导演+7名作+28运动/类型·07-24导演指定全量拉齐华语/日韩/好莱坞） | 2026-07-24 | skills/VIDEO/影视风格技能/SKILL.md |
 | [提示词] | 视频制作规则（胡导风格） | 2026-04-09 | §视频制作规则 |
 | [审核] | 即梦审核技巧 | 2026-04-23 | §即梦审核技巧 |
 | [技能] | 🔴 提示词规范技能（内容决策总控·该写什么/不该写什么+违禁词审查·出稿前唯一必过的内容规范门·2026-07-16整合违禁词审查技能） | 2026-07-16 | skills/VIDEO/提示词规范技能/SKILL.md |
