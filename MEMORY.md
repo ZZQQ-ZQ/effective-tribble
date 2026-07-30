@@ -40,10 +40,7 @@
 | [参考] | Soul ID角色一致性理念·Seedance适配版（Identity vs Motion分离+Character Anchor Block+跨段落一致性检查·源Higgsfield平台·07-13提取平台无关理念适配到@参考图+主体锚块体系） | 2026-07-13 | skills/VIDEO/SoulID角色一致性理念.md |
 | [参考] | AI漫剧12种风格提示词模板·双维度（Part A渲染质感4种 + Part B调色氛围8种：日系/港风/胶片/赛博/黑色电影/王家卫/韦斯安德森/末日废土·含11组组合示例·07-13入库更新） | 2026-07-13 | skills/VIDEO/references/ai-comic-style-templates.md |
 | [参考] | 🎵 音频音效设计标准化方案（通用公式+音量层级规范+环境底噪/关键特效音/背景配乐素材库+5类场景套用模板+实战示范·07-14入库） | 2026-07-14 | skills/VIDEO/references/audio-sound-design.md |
-| [参考] | 🔴 woodfantasy/Seedance2.0-ShotDesign-Skills 外部导演技能（运镜词典50+×3级×强度表+28导演风格四轴降解库+品质锚定胶片型号三层光影+20场景模板+7项硬校验·07-22拉入库存用） | 2026-07-22 | skills/VIDEO/seedance-shot-design/SKILL.md |
-| [参考] | 🔴 Emily2040/seedance-2.0 directing engine（145文件·导演意图派发引擎+33派生场景+中文原生vocab/examples+seedance-prompt/sequence/continuation多技能·07-22拉入库存用） | 2026-07-22 | skills/VIDEO/external-skills/emily2040-seedance/ |
-| [参考] | ai9app/AI-Cinematic-Prompt-Director（250条电影摄影知识库+逐镜提示词矩阵·07-22拉入库存用） | 2026-07-22 | skills/VIDEO/external-skills/ai9app-cinematic-director/ |
-| [参考] | birdilsss-byte/ai-creative-subagent-framework（5角色编排调度·07-22拉入库存用） | 2026-07-22 | skills/VIDEO/external-skills/birdilsss-subagent/ |
+| [参考] | 🔴 外部技能4套（07-22拉入·07-30已吸收进核心技能库并删除原始文件） | 2026-07-22→07-30 | 已归档删除 |
 | [知识库] | 🎬 电影画风知识库（58种·Part C 10种电影运动+Part D 7种导演风格+Part E 3种网络美学+Part F 18种影视类型·与已有20种构成58种完整矩阵·07-13新建并追加） | 2026-07-13 | skills/VIDEO/references/cinematic-style-knowledge-base.md |
 | [技能] | 🎬 影视风格技能 v3.0（风格→块1三变量+四层执行指令·69种完整库：34导演+7名作+28运动/类型·07-24导演指定全量拉齐华语/日韩/好莱坞） | 2026-07-24 | skills/VIDEO/影视风格技能/SKILL.md |
 | [提示词] | 视频制作规则（胡导风格） | 2026-04-09 | §视频制作规则 |
