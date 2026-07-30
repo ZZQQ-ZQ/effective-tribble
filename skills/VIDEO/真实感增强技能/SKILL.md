@@ -300,6 +300,27 @@ description: AI视频人物与场景真实感系统化增强。六大模块：�
 
 ---
 
+## 七点五、细节退化原理（2026-07-28 · 外部知识库补强）
+
+> 来源：growgami/sd2prompt Model Mechanics v6.6
+
+### 机制1：细节能力=屏幕面积
+
+占画面2%的脸=模型分配2%的空间表征。远脸/小手/小logo/屏幕上的文字——最先崩。
+
+- 🚫 全景+写"瞳孔放大，眼角泛红" → 2px的眼睛，模型算不出来
+- ✅ 重要细节→给特写或单镜
+- ✅ 有logo→单镜锁定
+
+### 机制2：错误复利
+
+每帧受邻居影响重合成。微小身份误差跨帧累积→第五代必崩。
+
+- 续写链超过4-5个片段→用原始参考图重锚，不用上一段输出当下一段输入
+- 每写一段→记录"观察到的真实终点"，不假设"计划终点"达到了
+
+---
+
 ## 八、速查卡（出提示词前逐项对照）
 
 ```
@@ -328,92 +349,24 @@ description: AI视频人物与场景真实感系统化增强。六大模块：�
 
 ---
 
-## 九、环境动态增强（Atmospheric Motion）
+## 九、环境生命力 → 交叉引用（🔄 2026-07-24 已独立为专项技能）
 
-> 创建：2026-07-23 | 导演要求
-> 核心理念：真实世界没有静止——风在吹、云在动、鸟在飞、尘在飘。静态画面=死画面，动态环境元素让场景"活"起来。
+> 本节内容已升级为独立技能 → **`环境生命力增强技能/SKILL.md`**
+> 
+> 包含：六大运动元素完整词库 + 因果链写法 + 场景→环境运动速配表 + 情绪匹配 + 景别适配 + 全网参考来源
+>
+> **使用方式**：本章保留速查卡入口，详细词库和写法从独立技能取。
 
-### 9.1 六大动态元素词库
+### 速查卡（出提示词前逐项对照）
 
-#### 风（Wind）
+```
+环境生命力 □ 每镜至少1个环境运动元素？□ 最多2个？
+           □ 写因果链了吗（不写"有风"，写"风→树叶动→光影变"）？
+           □ 运动元素和情绪匹配吗（悲伤不给狂风，愤怒不给微风）？
+           □ 景别适配吗（全景不写浮尘近景，近景不写云层）？
+```
 
-| 强度 | 中英文关键词 |
-|------|-----------|
-| 微风 | `微风拂过，发丝轻微飘动，衣摆轻轻摆动` `gentle breeze, hair slightly drifting` |
-| 中风 | `阵风吹起，衣摆翻飞，地面碎叶卷起` `gust of wind, clothes billowing` |
-| 强风 | `狂风呼啸，衣袍猛烈翻卷，树枝剧烈摇摆` `howling wind, clothes violently whipping` |
-| 风+物 | `风吹过草地形成波浪纹理，旗帜迎风展开` `wind rippling through grass` |
-
-#### 云（Clouds）
-
-| 类型 | 中英文关键词 |
-|------|-----------|
-| 云层流动 | `云层缓慢移动，在天空形成流动纹理` `clouds drifting slowly across sky` |
-| 碎云 | `碎云快速掠过，在地面投下移动阴影` `broken clouds casting moving shadows` |
-| 积云 | `厚重积云缓慢翻滚，体积感强烈` `thick cumulus clouds slowly churning` |
-| 薄云 | `高空薄云如纱飘移，透出淡蓝天光` `wispy cirrus clouds drifting high above` |
-| 日落云 | `日落云层被染成橙红，云边镀金` `sunset clouds rim-lit in orange and gold` |
-
-#### 飞鸟（Birds）
-
-| 场景 | 中英文关键词 |
-|------|-----------|
-| 远景群鸟 | `远处天空一群飞鸟盘旋，剪影在逆光中清晰` `distant flock of birds circling, silhouetted against sky` |
-| 单只掠飞 | `一只鸟从画面右上掠飞入画，穿出画左` `a single bird glides across frame` |
-| 惊飞 | `鸟群被惊起，从树冠轰然飞散` `flock of birds startled into flight` |
-| 近景 | `飞鸟翅膀缓慢扇动，羽毛细节可见` `bird wings beating slowly, feather detail visible` |
-
-#### 浮尘（Floating Dust）
-
-| 场景 | 中英文关键词 |
-|------|-----------|
-| 阳光束中 | `阳光光束穿过空气，无数微尘在光柱中缓慢飘浮` `dust motes floating in sunbeams` |
-| 室内 | `空气中悬浮细微尘埃，在暗光中隐约可见` `fine dust suspended in still air` |
-| 废墟 | `废墟中扬尘弥漫，碎屑从高处簌簌落下` `dust cloud hanging in ruined space, debris sifting down` |
-| 近景粒子 | `细微灰尘颗粒在镜头前飘过，被光线照亮` `dust particles drifting close to lens, catching light` |
-
-#### 阳光（Sunlight）
-
-| 类型 | 中英文关键词 |
-|------|-----------|
-| 丁达尔 | `阳光穿过缝隙形成丁达尔光束，光柱中浮尘可见` `god rays piercing through openings, dust visible in beams` |
-| 斑驳光 | `阳光透过树叶洒下斑驳光斑，在地面缓慢移动` `dappled light filtering through leaves, shifting slowly` |
-| 逆光 | `逆光拍摄，人物边缘形成金色轮廓光` `backlit, golden rim light outlining figures` |
-| 斜阳 | `低角度斜阳，拉长阴影，暖金光线铺满地面` `low-angle sun, long shadows, warm golden light flooding ground` |
-| 光移 | `阳光角度缓慢变化，光斑位置随时间推移移动` `sunlight angle slowly shifting, light spots moving over time` |
-
-#### 风沙 / 尘雾（Sand / Mist）
-
-| 类型 | 中英文关键词 |
-|------|-----------|
-| 地面扬尘 | `脚步声踢起地面尘土，细尘在脚踝高度翻卷` `dust kicked up by footsteps, swirling at ankle height` |
-| 远雾 | `远处薄雾降低对比度，景物逐渐隐入灰白` `distant haze softening contrast, landscape fading into mist` |
-| 地面雾 | `地面低雾缓慢流动，没过脚踝高度` `ground fog drifting slowly, ankle-deep` |
-| 风沙 | `风卷起沙尘，地面细沙被吹成流线纹理` `wind whipping up sand, fine particles streaming across ground` |
-| 尘雾穿透 | `尘雾中光线被散射形成柔和光晕` `light scattering through dust haze, soft halo effect` |
-
-### 9.2 其他动态细节
-
-| 元素 | 中文关键词 |
-|------|-----------|
-| 落叶 | `枯叶从画面上方飘落，翻转变换角度，落在地面` |
-| 火星/灰烬 | `火星从篝火中升起飘散，灰烬碎屑在空中缓慢飞舞` |
-| 水波 | `水面微微波动，倒影轻轻扭曲晃动` |
-| 草丛 | `草丛随风起伏如波浪，叶片互相摩擦` |
-| 衣摆 | `衣摆随步伐惯性摆动，停步后衣物向前荡再回摆` |
-| 碎纸/花瓣 | `碎纸片从高处飘落，无规则翻转，缓慢落向地面` |
-| 雨前风 | `阵风先到，树叶翻白，地面尘土被吹成旋涡` |
-
-### 9.3 使用原则
-
-1. **每镜最多选2个环境动态元素**，塞多了模型处理不过来
-2. **远景多用**云/雾/群鸟/丁达尔，**近景多用**浮尘/发丝飘动/衣摆摆动/镜头前粒子
-3. **环境动态必须和画面情绪挂钩**：
-   - 悲伤/失落 → 静止/微风/薄雾
-   - 紧张/压迫 → 狂风/碎云快速掠过/扬尘
-   - 温馨/浪漫 → 斑驳光+树叶微动+微风
-   - 荒凉/孤独 → 风沙/远雾/孤鸟
-4. 这些元素写在分镜"内容/画面内动"里，不单独开字段
+**详细词库+场景速配** → `skills/VIDEO/环境生命力增强技能/SKILL.md`
 
 ---
 
